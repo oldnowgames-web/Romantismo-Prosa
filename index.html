@@ -1,49 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <title>Prosa Romântica Brasileira — Museu 3D</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <div id="start" class="ui">
-    <div class="book">
-      <div class="bk-head">
-        <p class="kicker">Museu literário 3D</p>
-        <h1>Prosa Romântica Brasileira</h1>
-        <p class="sub">Uma visita interativa ao Romantismo no Brasil, a partir de 1836</p>
-      </div>
-      <div class="bk-menu"><button id="go">Entrar no museu</button><button id="hw">Como jogar</button><button
-          id="pr">Modo apresentação</button><button id="cr">Créditos</button></div>
-      <div class="bk-team">
-        <h2>Integrantes</h2>
-        <ul id="team"></ul>
-        <p class="turma" id="turma"></p>
-      </div>
-    </div>
-  </div>
-  <div id="hud" class="ui" style="display:none"><span id="info"></span><span><button id="bs">Som: ligado</button><button
-        id="bf">Reduzir efeitos</button><button id="bp">Apresentar</button></span></div>
-  <div id="prompt" class="ui"></div>
-  <div id="banner" class="ui"></div>
-  <div id="card" class="ui"></div>
-  <div id="pbar" class="ui"><button id="pv">◀ Voltar</button><span id="pl"></span><button id="nx">Avançar
-      ▶</button><button id="hi">Ocultar interface</button><button id="ex">Explorar</button><button id="en">Encerrar
-      apresentação</button></div>
-  <button id="show" class="ui">Mostrar interface</button>
-  <div id="mob" class="ui">
-    <div id="joy">
-      <div id="knob"></div>
-    </div><button id="eb">E</button>
-  </div>
-  <div id="modal" class="ui">
-    <div></div>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script src="script.js"></script>
-</body>
-
-</html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Prosa Romântica Brasileira — Museu 3D</title>
+<link rel="stylesheet" href="style.css"></head><body>
+<div id="start" class="ui"><div class="book">
+<div class="bk-head"><p class="kicker">Museu literário 3D</p><h1>Prosa Romântica Brasileira</h1><p class="sub">Uma visita interativa ao Romantismo no Brasil, a partir de 1836</p></div>
+<div class="bk-menu"><button id="go">Entrar no museu</button><button id="hw">Como jogar</button><button id="cr">Créditos</button><button class="fsb">Tela cheia</button></div>
+<div class="bk-team"><h2>Integrantes</h2><ul id="team"></ul><p class="turma" id="turma"></p></div>
+</div></div>
+<div id="hud" class="ui" style="display:none"><span id="info"></span><span><button id="bs">Som: ligado</button><button id="bf">Reduzir efeitos</button><button class="fsb">Tela cheia</button></span></div>
+<div id="prompt" class="ui"></div><div id="banner" class="ui"></div><div id="card" class="ui"></div>
+<button id="fin" class="ui">Finalizar apresentação</button>
+<div id="mob" class="ui"><div id="joy"><div id="knob"></div></div><button id="eb">E</button></div>
+<div id="modal" class="ui"><div></div></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script></body></html>
