@@ -1,5 +1,5 @@
 const $=s=>document.querySelector(s);
-const CRED=['Enrico Miguel Pelizzer Romano','Joao Antonio Paulsen Alves','Kauã Henquique da Silva','Daniel Miguel Batista de Souza'],TURMA='2ºDS AMS';
+const CRED=['Enrico Miguel Pelizzer Romano','João Antonio Paulsen Alves','Kauã Henquique da Silva','Daniel Miguel Batista'],TURMA='2ºDS AMS';
 $('#team').innerHTML=CRED.map(n=>'<li>'+n+'</li>').join('');$('#turma').textContent='Turma '+TURMA;
 const S=12.4;
 const R=[
@@ -36,7 +36,7 @@ q:[['O que o romance histórico combina?',['Fatos históricos e imaginação lit
 ['Manuel Antônio de Almeida (1831–1861)','Carioca. Autor de Memórias de um Sargento de Milícias, publicada em folhetins entre 1852 e 1853. A obra tem características diferentes da idealização romântica mais convencional, com humor e retrato do cotidiano.']],
 q:[['Qual obra, publicada em folhetins entre 1852 e 1853, foge da idealização romântica convencional?',['Memórias de um Sargento de Milícias','Iracema','O Guarani'],0,'A obra de Manuel Antônio de Almeida tem humor e retrata o cotidiano, sem a idealização típica.']]},
 {n:'Sala 7 — Biblioteca',c:0x4a3322,t:0,d:0,lib:1,it:[]},
-{n:'Sala Final — Conclusão',c:0x5c4630,t:0,d:0,it:[
+{n:'Sala 8 — Conclusão',c:0x5c4630,t:0,d:0,it:[
 ['Por que importa?','A prosa romântica ajudou a formar o romance brasileiro, ampliou o público leitor com os folhetins e buscou construir uma identidade nacional a partir de paisagens, costumes e personagens do Brasil.'],
 ['Revisão dos tipos','• Indianista: o indígena idealizado como herói (O Guarani, Iracema, Ubirajara)\n• Urbano: a vida na cidade e os costumes (A Moreninha, Senhora, Lucíola)\n• Regionalista: regiões e modos de vida (O Sertanejo, Inocência)\n• Histórico: passado e ficção (As Minas de Prata)']],
 qt:'Quiz final',
