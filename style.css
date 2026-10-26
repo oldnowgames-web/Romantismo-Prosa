@@ -212,7 +212,7 @@ h1 {
 #card {
     top: calc(60px + env(safe-area-inset-top, 0px));
     right: 12px;
-    width: min(44vw, 760px);
+    width: min(52vw, 1000px);
     max-height: calc(100% - 110px);
     overflow: auto;
     display: none;
@@ -222,7 +222,7 @@ h1 {
     border: 2px solid var(--g);
     border-radius: 6px;
     line-height: 1.55;
-    font-size: clamp(17px, 1.7vw, 30px)
+    font-size: clamp(19px, 2.3vw, 42px)
 }
 
 #card h2 {
@@ -332,8 +332,8 @@ h1 {
         right: 8px;
         top: auto;
         bottom: 8px;
-        max-height: 48%;
-        font-size: 15px
+        max-height: 50%;
+        font-size: 16px
     }
 }
 
@@ -422,8 +422,8 @@ canvas,
 }
 
 #modal>div {
-    width: min(92vw, 680px);
-    font-size: clamp(16px, 1.5vw, 26px)
+    width: min(92vw, 860px);
+    font-size: clamp(18px, 1.9vw, 34px)
 }
 
 #prompt {
